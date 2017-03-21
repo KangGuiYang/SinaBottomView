@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.botton:
                 // Show Dialog
                 CustomDialog mCustomDialog = new CustomDialog(this,R.style.my_dialog_style);
-                mCustomDialog.show();
+                mCustomDialog.showDialog();
                 break;
         }
     }
